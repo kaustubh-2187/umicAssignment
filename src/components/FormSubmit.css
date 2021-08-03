@@ -1,0 +1,67 @@
+.heading-container {
+    text-align: center;
+}
+
+.heading {
+    width: 75%;
+    margin: 1rem auto;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+.form-container {
+    background-color: rgb(138, 138, 228);
+    margin: 1rem auto;
+    padding : 1rem;
+    box-shadow: 5px 5px 5px #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.form-container form input{
+    -webkit-appearance: none;
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid rgb(138, 138, 228);
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 50%;
+    height:50px;
+}
+
+.form-container form input::-webkit-outer-spin-button,
+.form-container form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-container form input:focus {
+    background-color: rgb(215, 215, 238);
+    outline: none;
+}
+
+.form-container form button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(138, 138, 228);
+    font-weight: bold;
+    transition: 0.3s all;
+}
+
+.form-container form button:hover {
+    background-color: rgb(171, 171, 231) ;
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(122, 122, 182);
+} 
+
+form p {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
